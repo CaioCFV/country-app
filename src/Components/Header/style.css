@@ -1,0 +1,23 @@
+.container-head {
+    background: hsl(0, 0%, 100%);
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 25px 0;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.head span {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.head span i {
+    margin-right: 10px;
+}

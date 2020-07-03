@@ -1,0 +1,22 @@
+@charset "utf-8";
+.search-filter-box {
+    height: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    line-height: 50px;
+    padding: 0px 15px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.search-filter-box input {
+    border: 0;
+    outline: 0;
+    height: 100%;
+    margin-left: 25px;
+}
+
+.fas.fa-search {
+    font-size: 14px;
+    vertical-align: baseline;
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,600,800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+input,
+select {
+    background: transparent;
+}
+
+
+/* light mode */
+
+.light {
+    background: hsl(0, 0%, 98%);
+    transition: 0.1s;
+}
+
+.light .head {
+    color: hsl(200, 15%, 8%);
+}
+
+.light .container-head {
+    background: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 5px hsla(200, 15%, 8%, 0.5);
+}
+
+.light .optionContainer {
+    box-shadow: 0px 0px 5px hsla(200, 15%, 8%, 0.5);
+    background: hsl(0, 0%, 100%);
+}
+
+.light .fas.fa-moon {
+    color: hsl(200, 15%, 8%);
+}
+
+.light .coutryItem {
+    box-shadow: 0px 0px 5px hsla(200, 15%, 8%, 0.5);
+}
+
+.light .coutryItemInfo {
+    background: hsl(0, 0%, 100%);
+}
+
+.light .search-filter-box {
+    box-shadow: 0px 0px 5px hsla(200, 15%, 8%, 0.5);
+    background: hsl(0, 0%, 100%);
+}
+
+.light .fas.fa-search {
+    color: hsla(200, 15%, 8%, 0.5);
+}
+
+.light .border-countries li span p {
+    box-shadow: 0px 0px 5px hsla(200, 15%, 8%, 0.5);
+    background: hsl(0, 0%, 100%);
+}
+
+.light .back {
+    box-shadow: 0px 0px 5px hsla(200, 15%, 8%, 0.5);
+    background: hsl(0, 0%, 100%);
+}
+
+
+/*dark mode*/
+
+#element {
+    color: hsl(209, 23%, 22%);
+    color: hsl(200, 15%, 8%);
+    color: hsl(0, 0%, 52%);
+    color: hsl(0, 0%, 100%);
+}
+
+.dark {
+    background: hsl(209, 23%, 22%);
+    transition: 0.1s;
+}
+
+.dark .head {
+    color: hsl(0, 0%, 98%);
+}
+
+.dark .container-head {
+    background: hsl(209, 23%, 22%);
+    box-shadow: 0px 0px 5px hsl(200, 15%, 8%);
+}
+
+.dark .fas.fa-moon {
+    color: hsl(0, 0%, 98%);
+}
+
+.dark .optionContainer {
+    box-shadow: 0px 0px 5px hsla(200, 15%, 8%);
+    background: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 98%);
+    border: 0 !important;
+}
+
+.dark .coutryItem {
+    box-shadow: 0px 0px 5px hsl(200, 15%, 8%);
+}
+
+.dark .coutryItemInfo {
+    background: hsl(209, 23%, 22%);
+}
+
+.dark .search-filter-box {
+    box-shadow: 0px 0px 5px hsl(200, 15%, 8%);
+    background: hsl(209, 23%, 22%);
+}
+
+.dark .fas.fa-search {
+    color: hsl(0, 0%, 98%);
+}
+
+.dark .border-countries li span p {
+    box-shadow: 0px 0px 5px hsl(200, 15%, 8%);
+    background: hsl(209, 23%, 22%);
+}
+
+.dark .back {
+    box-shadow: 0px 0px 5px hsl(200, 15%, 8%);
+    background: hsl(209, 23%, 22%);
+}
+
+.dark ul.coutryItemInfo h2,
+.dark ul.coutryItemInfo li,
+.dark .back,
+.dark .country-description {
+    color: hsl(0, 0%, 98%);
+}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+.optionContainer {
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 20px;
+    width: 100%;
+    max-width: 250px;
+    text-align: right;
+    outline: 0;
+    border-radius: 10px;
+}
+
+.optionContainer option {
+    float: left;
+    outline: 0;
+    width: 100%;
+}
