@@ -1,4 +1,23 @@
-# county-app
-Aplicação react que consome dados de uma api e mostra país e suas informações
+## Link da aplicação
+https://countrypp.netlify.app/
 
-link do app online: https://countrypp.netlify.app/
+
+## Pre-requisitos
+
+* Node - http://nodejs.org/
+
+## Instalação 
+
+Clone este repositório
+
+## Início
+
+Entre no diretório do arquivo que foi clonado e execute os seguintes comandos respectivamente:
+
+```shell
+    npm install
+    npm start
+```
+
+
+A aplicação abrira em `localhost:3000`
